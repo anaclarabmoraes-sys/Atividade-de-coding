@@ -10,16 +10,7 @@ while r!=4:
     if r<1 or r>4:
         print("Opção inválida. Tente novamente.")
 
-    elif r:
         r= int(input("1.Álcool \n2.Gasolina \n3.Diesel \n4.Fim \n"))
-        else:
-            if r==1:
-                a=a+1 
-            elif r==2:
-                g=g+1
-            elif r==3:
-                d=d+1
-            elif r==4:
 
         if r==1:
             a=a+1 
@@ -55,7 +46,4 @@ while r!=4:
             print("Diesel: ", d)
             break
 
-    print()
-    print("Álcool: ",a)
-    print("Gasolina: ",g)
-    print("Diesel: ",d) 
+ 
